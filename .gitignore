@@ -1,0 +1,82 @@
+# =========================
+# Django / Python .gitignore
+# =========================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django-related
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static_root/
+.env
+.env.*
+.env.local
+.env.production
+.env.dev
+venv/
+venv*/
+.envrc
+
+# Django migrations (optional – comment out if you want to track)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.coverage.*
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Python build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and backups
+*.log
+*.bak
+*.swp
+*.swo
+*.tmp
+*.pid
+
+# MyPy / Pyright / Pylint / Ruff cache
+.mypy_cache/
+.pytype/
+.pyright/
+.ruff_cache/
+.pylint.d/
+
+# Docker
+*.pid
+*.tar
+*.gz
+
+# JetBrains
+*.iml
+out/
